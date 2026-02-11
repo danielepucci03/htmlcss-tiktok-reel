@@ -31,9 +31,27 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
-
+	
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	justify-content: space-around;
+	color: #fff;
+	display: flex;
+	text-align: center;
+	
+
+	.word_search{
+		
+		display: inline-block;
+		flex-direction: row;
+
+	}
+
+	.explore{
+		
+		display: flex;
+		justify-content: space-around;
+	}
 }
 
 /* Footer */
