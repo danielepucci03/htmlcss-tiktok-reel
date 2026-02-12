@@ -77,6 +77,7 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #000;
+	padding: 1rem;
 }
 
 .image_house_fill{
@@ -125,13 +126,59 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: column;
+}
+
+img{
+	border-radius: 50%;
+	border: 2px solid #fff;
+	
+}
+	
+.image_heart_fill{
+	font-size: 1.75rem;
+	color: #fff;
+	background-color: transparent;
+	border: transparent;
+	padding-bottom: 1rem;
+	padding-top: 4rem;
+}
+
+.image_chat{
+	font-size: 1.75rem;
+	color: #fff;
+	background-color: transparent;
+	border: transparent;
+	padding-bottom: 1rem;
+	padding-top: 4rem;
+}
+
+.image_bookmark_fill{
+	font-size: 2rem;
+	color: white;
+	background-color: transparent;
+	border: transparent;
+	padding-bottom: 1rem;
+	padding-top: 4rem;
+}
+
+.image_arrow{
+	font-size: 1.75rem;
+	color: #fff;
+	background-color: transparent;
+	border: transparent;
+	padding-bottom: 1rem;
+	padding-top: 4rem;
 }
 
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
-.debug footer {
+/*.debug footer {
 	min-height: 5rem;
 	border: 2px dashed #fff;
 }
