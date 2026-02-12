@@ -50,7 +50,15 @@ video {
 	.explore{
 		
 		display: flex;
-		justify-content: space-around;
+		
+
+		.bi-play-btn{
+			font-size: 1.5rem;
+		}
+
+		.bi-search{
+			font-size: 1.5rem;
+		}
 	}
 }
 
@@ -65,6 +73,11 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	justify-content: space-around;
+	font-size: 2rem;
+	align-items: center;
+	background-color: #000;
 }
 
 /* Sidebar */
@@ -83,7 +96,7 @@ Regole per evidenziare i blocchi
 da rimuovere una volta concluso
 --------------------- */
 .debug footer {
-	min-height: 100px;
+	min-height: 5rem;
 	border: 2px dashed #fff;
 }
 
