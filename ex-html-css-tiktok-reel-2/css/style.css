@@ -74,10 +74,46 @@ footer {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 	display: flex;
-	justify-content: space-around;
-	font-size: 2rem;
+	justify-content: space-between;
 	align-items: center;
 	background-color: #000;
+}
+
+.image_house_fill{
+	font-size: 1.75rem;
+	color: whitesmoke;
+	background-color: transparent;
+	border: transparent;
+	padding-left: 1rem;
+}
+
+.image_people{
+	font-size: 1.5rem;
+	color: gray;
+	background-color: transparent;
+	border: transparent;
+}
+
+.image_square{
+	font-size: 1.5rem;
+	color: gray;
+	background-color: transparent;
+	border: transparent;
+}
+
+.image_square_fill{
+	font-size: 2rem;
+	color: #fff;
+	background-color: #000;
+	border: transparent;
+}
+
+.image_person{
+	font-size: 1.5rem;
+	color: gray;
+	background-color: transparent;
+	border: transparent;
+	padding-right: 1rem;
 }
 
 /* Sidebar */
